@@ -1,0 +1,38 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Transperator
+qgisMinimumVersion=2.0
+description=Make black invisible in all raster layers
+about=Convert black color (#000000) into transparent in all (grey level\ color) raster layers. The same as Layer properties->Transparency->Set 'Additional no data value' to `0`.
+version=0.1
+author=Ronen Abravanel
+email=ronena@gmail.com
+
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags= style
+
+homepage=
+tracker=
+repository=
+category=Raster
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
